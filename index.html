@@ -399,6 +399,15 @@
       color: var(--color-card-text);
     }
 
+    div.card {
+      cursor: default;
+      opacity: 0.8;
+    }
+
+    div.card:hover {
+      transform: none;
+    }
+
     .card .card-icon {
       margin-right: 1.5rem;
       display: flex;
@@ -572,7 +581,8 @@
   <h3>2026</h3>
   
   
-  <a href="mailto:richardhammer78@gmail.com" class="card event" target="_blank" rel="noopener noreferrer">
+  
+  <div class="card event">
   
     <div class="event-datetime">
       <div class="day-month">
@@ -586,10 +596,11 @@
       <h3 class="city">Waterloo<span class="venue"> @ Bistro Bardo</span></h3>
       <h4 class="event-name">Première partie | Bistro Bar'Drôle</h4>
       
-      <p>Entrée gratuite, sortie au chapeau. Réservations obligatoires @ richardhammer78@gmail.com</p>
-      
     </div>
-  </a>
+  
+  </div>
+  
+  
   
   
   
@@ -610,7 +621,10 @@
       <p>Entrée gratuite, sortie au chapeau. Choisissez la bonne date !</p>
       
     </div>
+  
   </a>
+  
+  
   
   
   
@@ -629,7 +643,10 @@
       <h4 class="event-name">Open Mic</h4>
       
     </div>
+  
   </a>
+  
+  
   
   
   
@@ -650,7 +667,10 @@
       <p>Entrée gratuite, sortie au chapeau. Choisissez la bonne date !</p>
       
     </div>
+  
   </a>
+  
+  
   
   
   
@@ -671,7 +691,9 @@
       <p>Standup & beers (àpd 18:00). Et un set exclusif !</p>
       
     </div>
+  
   </a>
+  
   
   
 
